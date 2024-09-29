@@ -30,13 +30,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Juego</a>
+                        <a class="nav-link" href="#start-game-section">Juego</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de</a>
+                        <a class="nav-link" href="#about">Acerca de</a>
                     </li>
                     <li class="nav-item">
                         <!-- Botón de control de audio en el navbar -->
@@ -49,12 +49,36 @@
         </div>
     </nav>
 
-    <main class="container d-flex justify-content-center align-items-center" style="height: calc(100vh - 160px); flex-direction: column;">
-        <!-- Sección de iniciar juego -->
-        <section id="start-game-section" class="text-center p-5 rounded shadow">
-            <h2 class="mb-4">¡Inicia el Juego!</h2>
-            <button id="start-game" class="btn btn-success">Iniciar Juego</button>
+    <main class="container-fluid p-0 w-100">
+    <!-- Sección de iniciar juego -->
+    <section id="start-game-section" class="text-center p-0 rounded shadow">
+<div class="row">
+    <div class="col-12 col-md-12">
+        <h2 class="mb-4">¡Inicia el Juego!</h2>
+    </div>
+    <div class="col-12 col-md-12">
+        <button id="start-game" class="btn btn-success">Iniciar Juego</button>
+    </div>
+</div>
+    </section>
+        <section id="about" class="py-5 bg-light text-center">
+            <div class="container p-0">
+                <h2 class="text-uppercase font-weight-bold mb-4">Acerca de Guardianes del GLOBE</h2>
+                <p class="lead mb-4">
+                    Guardianes del GLOBE es un proyecto que busca concienciar a las personas sobre la importancia de proteger el medio ambiente. 
+                    Utilizamos datos del Programa GLOBE y NASA para educar y fomentar la acción frente a los desafíos ambientales globales, como el cambio climático, la deforestación, y la contaminación.
+                </p>
+                <p class="mb-4">
+                    Nuestro objetivo es proporcionar herramientas interactivas y educativas para estudiantes y personas interesadas en entender mejor el mundo natural 
+                    que nos rodea y los impactos que estamos causando. A través de juegos interactivos y contenido educativo, buscamos fomentar la participación ciudadana
+                    en la protección de nuestro planeta.
+                </p>
+                <p class="font-weight-bold mb-0">
+                    ¡Únete a nosotros y sé parte del cambio!
+                </p>
+            </div>
         </section>
+        
     </main>
     <footer class="bg-dark text-white pt-3 pb-3">
         <div class="container text-center text-md-left">
