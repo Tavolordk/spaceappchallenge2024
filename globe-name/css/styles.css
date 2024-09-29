@@ -73,18 +73,6 @@ button:hover {
     transform: translateY(-2px);
 }
 
-/* Footer */
-footer {
-    background-color: #34495e;
-    color: #ecf0f1;
-    padding: 15px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
-    font-size: 0.9rem;
-    letter-spacing: 1px;
-}
 main {
     background-image: url('https://tavolordk.github.io/spaceappchallenge2024/globe-name/img/3.webp'); /* Cambia el path a la imagen que quieras usar */
     background-size: cover; /* Asegura que la imagen cubra toda la sección */
@@ -129,3 +117,5 @@ main {
     position: relative;
     z-index: 2; /* Asegura que el texto y el botón estén por encima del overlay */
 }
+
+
