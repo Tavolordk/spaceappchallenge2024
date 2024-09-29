@@ -1,0 +1,129 @@
+/* Reinicio de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    height: 100vh;
+}
+
+/* Fondo de pantalla similar al estilo de la imagen */
+main {
+    background-image: url('/mnt/data/A_vibrant_and_visually_appealing_wallpaper_for_a_w.png'); /* Usamos tu imagen actual */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header centrado y refinado */
+header {
+    font-family: 'Playfair Display', serif;
+    color: #ECF0F1;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Ajustamos la altura */
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c29d65;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    margin: 0; /* Remover cualquier margen */
+}
+
+p.lead {
+    font-size: 1.5rem;
+    color: #c29d65;
+    margin-top: 10px; /* Añadir algo de espacio debajo del título */
+}
+
+/* Contenedor del juego */
+#game-container {
+    background: rgba(44, 62, 80, 0.85);
+    border-radius: 15px;
+    color: #ECF0F1;
+    width: 80%;
+    max-width: 600px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Botones estilo rústico y aventurero */
+button {
+    padding: 15px 30px;
+    border: 3px solid #d35400;
+    background-color: #e67e22;
+    color: #FFF;
+    font-size: 1.3rem;
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #d35400;
+    color: #FFF;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+main {
+    background-image: url('/globe-name/img/3.webp'); /* Cambia el path a la imagen que quieras usar */
+    background-size: cover; /* Asegura que la imagen cubra toda la sección */
+    background-position: center; /* Centra la imagen en la sección */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    padding: 50px; /* Añadir padding para que el contenido no quede pegado al borde */
+    border-radius: 10px; /* Opcional: añade un poco de curva a las esquinas de la sección */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: añade sombra para destacar la sección */
+    color: white; /* Asegura que el texto sea visible sobre la imagen */
+}
+#start-game-section {
+    position: relative;
+}
+
+#start-game-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    z-index: 1;
+    border-radius: inherit;
+}
+
+#start-game-section h2, 
+#start-game-section button {
+    position: relative;
+    z-index: 2; /* Asegura que el texto y el botón estén por encima del overlay */
+}
