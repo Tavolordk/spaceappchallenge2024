@@ -106,6 +106,19 @@ main {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: añade sombra para destacar la sección */
     color: white; /* Asegura que el texto sea visible sobre la imagen */
 }
+/* Imagen de fondo para dispositivos móviles */
+@media (max-width: 768px) {
+    main {
+        background-image: url('/globe-name/img/4.webp'); /* Cambia el path a la imagen de móvil */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        color: white;
+    }
+}
 #start-game-section {
     position: relative;
 }
