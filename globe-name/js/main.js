@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Cargar el archivo de audio si no está cargado
         if (!audioBuffer) {
-            const audioUrl = '/globe-name/audio/prologue.mp3'; // Reemplaza con la ruta correcta de tu archivo de audio
+            const audioUrl = 'https://tavolordk.github.io/spaceappchallenge2024/globe-name/audio/prologue.mp3'; // Reemplaza con la ruta correcta de tu archivo de audio
             const response = await fetch(audioUrl);
             const arrayBuffer = await response.arrayBuffer();
             audioBuffer = await audioContext.decodeAudioData(arrayBuffer);

@@ -12,17 +12,6 @@ body {
     height: 100vh;
 }
 
-/* Fondo de pantalla similar al estilo de la imagen */
-main {
-    background-image: url('/mnt/data/A_vibrant_and_visually_appealing_wallpaper_for_a_w.png'); /* Usamos tu imagen actual */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /* Header centrado y refinado */
 header {
     font-family: 'Playfair Display', serif;
@@ -97,7 +86,7 @@ footer {
     letter-spacing: 1px;
 }
 main {
-    background-image: url('/globe-name/img/3.webp'); /* Cambia el path a la imagen que quieras usar */
+    background-image: url('https://tavolordk.github.io/spaceappchallenge2024/globe-name/img/3.webp'); /* Cambia el path a la imagen que quieras usar */
     background-size: cover; /* Asegura que la imagen cubra toda la sección */
     background-position: center; /* Centra la imagen en la sección */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -109,7 +98,7 @@ main {
 /* Imagen de fondo para dispositivos móviles */
 @media (max-width: 768px) {
     main {
-        background-image: url('/globe-name/img/4.webp'); /* Cambia el path a la imagen de móvil */
+        background-image: url('https://tavolordk.github.io/spaceappchallenge2024/globe-name/img/4.webp'); /* Cambia el path a la imagen de móvil */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
