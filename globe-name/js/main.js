@@ -1,3 +1,18 @@
+
+    // Esperar hasta que todo el contenido de la página esté completamente cargado
+    window.addEventListener('load', function() {
+        setTimeout(function() {
+            let loader = document.getElementById('loader');
+            let content = document.getElementById('page-content');
+
+            // Ocultar el loader
+            loader.style.display = 'none';
+
+            // Mostrar el contenido
+            content.classList.remove('hidden');
+        }, 5000); // Esperar 5 segundos antes de ocultar el loader y mostrar el contenido
+    });
+
 document.addEventListener('DOMContentLoaded', function () {
     let audioContext;
     let audioBuffer;
