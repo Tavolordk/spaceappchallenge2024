@@ -113,7 +113,7 @@ document.getElementById('start-game').addEventListener('click', function () {
             document.getElementById('location').textContent = `Ubicación obtenida: Latitud: ${position.coords.latitude}, Longitud: ${position.coords.longitude}`;
 
             // Load CSV data
-            Papa.parse('../globe-name/data/Cleaned_GLOBEMeasurementData_21713.csv', {
+            Papa.parse('https://tavolordk.github.io/spaceappchallenge2024/globe-name/data/Cleaned_GLOBEMeasurementData_21713.csv', {
                 download: true,
                 header: true,
                 complete: function (results) {
